@@ -1,0 +1,15 @@
+@import "tailwindcss";
+html, body {
+  height: 100%;
+  background-color: #f8fafc; /* Un color de fondo suave por defecto */
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+  }
+  .scrollbar-hide {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+  }
+}

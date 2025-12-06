@@ -1,0 +1,26 @@
+# Django Framework
+Django==5.2.8
+
+# Django REST Framework para crear APIs
+djangorestframework==3.16.1
+
+# Autenticación con JWT para DRF
+djangorestframework-simplejwt==5.2.2
+
+# Setuptools requerido por simplejwt
+setuptools>=65.0.0
+
+# Gestión de variables de entorno
+django-environ==0.12.0
+
+# Adaptador de PostgreSQL para Python
+psycopg2-binary==2.9.11
+
+# Dependencias adicionales de Django
+asgiref==3.10.0
+sqlparse==0.5.3
+tzdata==2025.2
+requests
+resend
+
+django-cors-headers
